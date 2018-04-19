@@ -2,6 +2,40 @@
   text-align: center;
 }
 
+.number {
+  font-size: 13em;
+  color: #158e47;
+  text-shadow: 2px 2px #0e3517;
+  text-decoration: underline;
+}
+
+button {
+  padding: 1em;
+  background: #5757b7;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  margin: 0.5em;
+}
+
+.josh {
+  font-size: 5em;
+
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.inverse {
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
